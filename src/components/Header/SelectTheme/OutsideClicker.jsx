@@ -2,7 +2,8 @@ import React, { useEffect, useRef } from "react";
 
 export function OutsideClicker(props) {
   const wrapperRef = useRef(null);
-  let { isActive, setActive } = props;
+  // eslint-disable-next-line no-unused-vars
+  let {isActive, setActive } = props;
 
   function useOutsideAlerter(ref) {
     useEffect(() => {
